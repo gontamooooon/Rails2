@@ -19,3 +19,6 @@ ActiveStorage.start()
 
 //= require jquery
 //= require rails-ujs
+
+window.$ = window.jQuery = require('jquery');
+require('packs/raty')
